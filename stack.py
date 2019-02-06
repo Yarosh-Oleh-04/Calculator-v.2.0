@@ -98,3 +98,7 @@ if __name__ == "__main__":
     import doctest
 
     doctest.testmod()
+
+while True:
+    print(evaluate(infix_to_postfix(str(input('=> ')))))
+
