@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12b0bef1-f96f-4e7c-80fe-faaaf73e3423" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stack.py" beforeDir="false" afterPath="$PROJECT_DIR$/stack.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Calculator.py" beforeDir="false" afterPath="$PROJECT_DIR$/Calculator.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,7 +15,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Stack$game.coverage" NAME="game Coverage Results" MODIFIED="1549483762291" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Git_Games/snake" />
     <SUITE FILE_PATH="coverage/Stack$checkers.coverage" NAME="checkers Coverage Results" MODIFIED="1549655081120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.." />
-    <SUITE FILE_PATH="coverage/Stack$Calculator.coverage" NAME="Calculator Coverage Results" MODIFIED="1549832070657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Stack$Calculator.coverage" NAME="Calculator Coverage Results" MODIFIED="1549912129288" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Stack$pass.coverage" NAME="pass Coverage Results" MODIFIED="1549301206367" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Stack$stack_class.coverage" NAME="stack_class Coverage Results" MODIFIED="1549794165422" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Stack$stack.coverage" NAME="stack Coverage Results" MODIFIED="1549831450010" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -50,8 +51,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Calculator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="57" column="89" selection-start-line="57" selection-start-column="89" selection-end-line="57" selection-end-column="89" />
+            <state relative-caret-position="235">
+              <caret line="86" column="33" selection-start-line="86" selection-start-column="33" selection-end-line="86" selection-end-column="33" />
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
               </folding>
@@ -282,12 +283,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1549186069506</updated>
-      <workItem from="1549186106580" duration="43776000" />
+      <workItem from="1549186106580" duration="49423000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43776000" />
+    <option name="totallyTimeSpent" value="49423000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -423,13 +424,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/tkinter/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="2675" selection-start-line="2675" selection-end-line="2675" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/stack_class.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
@@ -447,10 +441,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/tkinter/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="2675" selection-start-line="2675" selection-end-line="2675" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Calculator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="57" column="89" selection-start-line="57" selection-start-column="89" selection-end-line="57" selection-end-column="89" />
+        <state relative-caret-position="235">
+          <caret line="86" column="33" selection-start-line="86" selection-start-column="33" selection-end-line="86" selection-end-column="33" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
           </folding>
