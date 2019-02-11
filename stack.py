@@ -48,7 +48,9 @@ def evaluate(abc):
         stack = []
         abc = abc.split(' ')
         for i in abc:
-            if i in '+-/*':
+            if i == '':
+                pass
+            elif i in '+-/*':
                 right = float(stack.pop())
                 left = float(stack.pop())
                 if i == '+':
@@ -91,10 +93,14 @@ def infix_to_postfix(abc):
             num += i
         if i in '+-*/' and t == 0:
             res += num + ' '
-            num = ''
-            if i == '-':
+            if num == '' and i == '-':
                 num = '-'
-                i = '+'
+                i = ''
+            else:
+                num = ''
+                if i == '-':
+                    num = '-'
+                    i = '+'
             while stack != [] and stack[len(stack) - 1] in '*/':
                 res += stack.pop() + ' '
             stack.append(i)
@@ -116,5 +122,4 @@ def calc(abc):
     return evaluate(infix_to_postfix(abc))
 
 
-print(evaluate(infix_to_postfix('88+36+')))
 # print(infix_to_postfix('((12 + 4 - 5 - 5) * 6 - 11) / 5'))

@@ -40,9 +40,9 @@ top.resizable(0, 0)
 
 text_field = tkinter.StringVar()
 
-form = tkinter.Entry(top, width=30, textvariable=text_field, font=('', '18'))
+form = tkinter.Entry(top, width=30, textvariable=text_field, font=('', '18'), bg='#FFCC99')
 form.grid(columnspan=5, row=0)
-res = tkinter.Entry(top, width=30, font=('', '18'))
+res = tkinter.Entry(top, width=30, font=('', '18'), bg='#FFCC99')
 res.grid(columnspan=5, row=1)
 buttons = []
 
